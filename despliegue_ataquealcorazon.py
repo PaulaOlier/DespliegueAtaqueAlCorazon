@@ -92,7 +92,7 @@ data_preparada.head()
 Y_pred = modelo.predict(data_preparada)
 print(Y_pred)
 
-data['Prediccion']=labelencoder.inverse_transform(Y_pred)
+data['Prediccion']=Y_pred
 data.head()
 
 #Predicciones finales
