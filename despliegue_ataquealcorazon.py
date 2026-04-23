@@ -35,8 +35,8 @@ modelo, encoder, variables, scaler = pickle.load(open(filename, 'rb'))
 #print(loaded_content)
 
 #Cargamos los datos futuros
-data = pd.read_excel("ataque_corazon.xlsx")
-data.head()
+#data = pd.read_excel("ataque_corazon.xlsx")
+#data.head()
 
 #Interfaz gráfica
 #Se crea interfaz gráfica con streamlit para captura de los datos
